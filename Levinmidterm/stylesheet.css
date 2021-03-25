@@ -1,0 +1,61 @@
+#story {
+  width: 900px;
+  margin:0 auto;
+}
+
+<div class="hiddentext"style="display:none,">I must say I do enjoy typing html code out more so than css. I do wish all code could be typed into html and style wasn't apart of this at all.</div>
+
+#byline {
+font-family: Times,sans-serif;
+font-size: 16px;
+font-style: italic;
+}
+
+h1{
+font-family:sans-serif;
+font-size: 40px;
+font-weight: bold;
+color: #D035F5;
+text-align: center;
+}
+
+h2{
+font-family:sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+h3{
+font-family:sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+p{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;
+}
+
+img{
+  display: block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+
+blockquote {
+font: 16px/24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: red;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
+}
+
+figcaption{
+  font-family: Times New Roman;
+  text-align: center;
+}
