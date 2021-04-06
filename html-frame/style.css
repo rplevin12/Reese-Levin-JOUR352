@@ -1,0 +1,41 @@
+.headline{
+  font-size:3em;
+  font-weight: 700;
+  text-align: center;
+  font-family:'Oswald', sans-serif;
+}
+
+.byline{
+  font-size:1em;
+  text-transform: uppercase;
+  font-family:'Oswald', sans-serif;
+  text-align: center;
+}
+
+p{
+font-family:georgia, serif;
+line-height: 180%
+}
+
+h1{
+  font-size:2em;
+  font-weight: 500;
+  font-family:'Oswald', sans-serif;
+}
+
+img{
+  display: block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+
+
+footer{
+  text-align: center;
+}
+
+figcaption{
+  text-align: center;
+}
