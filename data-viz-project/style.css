@@ -58,9 +58,9 @@ img{
   color:#F0F2F2;
 }
 
-hero-image {
-  width:100%;
-} 
+.hero-image {
+  width: 100%; 
+}
 
 .overlay {
   position:absolute;
