@@ -6,36 +6,144 @@
 }
 
 .byline{
-  font-size:1em;
+  font-size:1.3em;
   text-transform: uppercase;
   font-family:'Oswald', sans-serif;
   text-align: center;
 }
 
 p{
-font-family:georgia, serif;
+font-family: georgia, serif;
+font-size: 1.1em;
 line-height: 180%
 }
 
-h1{
-  font-size:2em;
-  font-weight: 500;
-  font-family:'Oswald', sans-serif;
+
+.header{
+  font-size:3.1em;
+  font-weight: 350 bold;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 img{
   display: block;
-  padding: 5px;
+  padding: 3px;
   margin-left: auto;
   margin-right: auto;
-  width: 550px;
+  width: 575px;
 }
 
 
-footer{
+.figcaption{
+  font-family: sans-serif;
   text-align: center;
+  color: #000000;
+  width:100%;
 }
 
-figcaption{
-  text-align: center;
+.nav-logo{
+  color: #fff;
+  margin:0 auto;
+  font-weight: 800;
+  text-transform:uppercase;
 }
+
+/* Hero image */
+
+
+.hero-container {
+  position:relative;
+  text-align:center;
+  color:#F0F2F2;
+}
+
+.hero-image {
+  width:100%;
+}
+
+.overlay {
+  position:absolute;
+  top:39.5%;
+  width:100%;
+  background:#000;
+  opacity:.8;
+
+}
+
+.hero-hed{
+  font-family:"PT Sans", serif;
+  font-weight: bold;
+  font-size:5em;
+  margin:0 auto;
+  padding-bottom:9px;
+  color:#AC4830
+
+
+}
+
+.hero-sub{
+  font-family: "Montserrat", serif;
+  font-size:.25em;
+  margin:0 auto;
+}
+
+
+/* Quote */
+
+.quote {
+  font-family: "Montserrat", serif;
+  color:#79AA51;
+  font-size:3em;
+  font-weight:650;
+  text-align:center;
+  padding: 13px 0 13px 0;
+  border-top:1.5px solid #79AA51;
+  border-bottom:1.5px solid #79AA51;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.quote-attribution{
+  font-size:.5em;
+  font-family: serif;
+  font-weight: 100;
+  text-align: left;
+  color:#000;
+}
+
+.dropstyle{
+  color: #79AA51;
+  font-size: 3em;
+}
+
+.h2 {
+  color:#EB220E;
+}
+
+
+/* unvisited link */
+a:link{
+ color: red;
+}
+
+/* visited link */
+a:visited {
+ color: #79AA51;
+}
+
+/* mouse over link */
+a:hover {
+ color: hotpink;
+}
+
+
+@media(max-width:700px) {
+  p{
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .hero-hed {
+    font-size:1.5em;
+  }
